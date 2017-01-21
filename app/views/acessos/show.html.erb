@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ac:</strong>
+  <%= @acesso.ac_id %>
+</p>
+
+<p>
+  <strong>Ac user:</strong>
+  <%= @acesso.ac_user %>
+</p>
+
+<p>
+  <strong>Ac tela:</strong>
+  <%= @acesso.ac_tela %>
+</p>
+
+<%= link_to 'Edit', edit_acesso_path(@acesso) %> |
+<%= link_to 'Back', acessos_path %>
